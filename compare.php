@@ -12,14 +12,15 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row justify-content-md-center">
+	
+		<div class="row justify-content-md-center grid-row">
 			<div class="col-md-3 outline">
 				<div class="grid-box px-3 py-1">
 					<p>test</p>
 				</div>
 			</div>
 			<div class="col-md-3 outline">
-				<div class="grid-box px-3 py-1">
+				<div class="grid-box vcenter">
 					<p>test</p>
 				</div>
 			</div>

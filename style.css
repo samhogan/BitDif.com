@@ -27,14 +27,26 @@
 
 }
 
-.field {
-
-	background-color: #ccc;
+.grid-box {
+	min-height: 100%;
+	background-color: #eee;
 }
 
-.grid-box {
-	min-height: 60px;
-	background-color: #eee;
+.grid-row {
+
+	min-height: 90px;
+}
+
+/*used for grid cells in which the content should be vertically centered*/
+.vcenter {
+	display: table;
+	width: 100%;
+}
+
+div.vcenter p {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;	
 }
 
 /*nav {
