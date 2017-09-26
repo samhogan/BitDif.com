@@ -2,13 +2,14 @@
 	text-align: center;
 	font-size:25px;
 	font-color: blue;
+
 }
 
 
 .outline {
-	outline-style: solid;
+	/*outline-style: solid;
 	outline-color: green;
-
+*/
 }
 
 @media (min-width: 768px) { 
