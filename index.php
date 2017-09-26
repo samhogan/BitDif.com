@@ -37,11 +37,11 @@
 
 	<!-- content -->
  	<div class="container">
- 		<div class="col-lg-12 outline mb-4">
+ 		<div class="col-md-12 outline mb-4">
  			<h3 class="text-center">Compare Cryptocurrencies</h3>
  		</div>
 		<form> <!-- class="form-inline"> -->
-			<div class="form-group row justify-content-md-center">
+			<div class="form-group row justify-content-md-center no-gutters">
 				<div class="col-md-3 outline">
 		      		<label class="sr-only" for="crypto1">Example select</label>
 	      			<select class="form-control" id="crypto1">
@@ -67,7 +67,7 @@
 	    		</div>
 	  		</div>
 	  		<div class="form-group row justify-content-md-center">
-				<div class="col-md-2 outline offset-sm-2 text-center">
+				<div class="col-md-12 outline offset-sm-2 text-center">
 	  				<button type="submit" class="btn btn-primary btn-lg">Compare</button>
 	  			</div>
 	  		</div>

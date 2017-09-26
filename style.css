@@ -6,12 +6,36 @@
 
 
 .outline {
-	/*outline-style: solid;
+	outline-style: solid;
 	outline-color: green;
-*/
+
 }
 
+@media (min-width: 768px) { 
+	.col-md-half {
+	   @extend .col-md-1;
+	   /*width: percentage((0.5 / $grid-columns));*/
+	   color: blue;
+	}
+}
 
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) { 
+	.col-md-half {
+	   @extend .col-md-1;
+	}
+
+}
+
+.field {
+
+	background-color: #ccc;
+}
+
+.grid-box {
+	min-height: 60px;
+	background-color: #eee;
+}
 
 /*nav {
 	background-color: #2389ff;
