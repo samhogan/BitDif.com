@@ -50,6 +50,10 @@ div.vcenter p {
 	text-align: center;	
 }
 
+#title {
+	text-align:center;
+}
+
 /*nav {
 	background-color: #2389ff;
 

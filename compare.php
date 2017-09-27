@@ -2,7 +2,7 @@
 
 	include('header.php'); 
 
-
+	include("cryptodat.php");
 
 	echo $_GET["crypto2"];
 	$crypto1 = $crypto2 = "";
@@ -20,10 +20,10 @@
 	  return $data;
 	}
 
-	$title = $crypto1 . " vs " . $crypto2;
+	$title = $cryptos[$crypto1]["name"] . " vs " . $cryptos[$crypto2]["name"];
 
 ?>
-	<h1><?php echo $title; ?></h1>
+	<h1 id="title"><?php echo $title; ?></h1>
 	<div class="container">
 	
 		<div class="row justify-content-md-center grid-row no-gutters">
