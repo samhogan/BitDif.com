@@ -12,7 +12,7 @@
 </head>
 <body>
 	<!-- navbar -->
-    <nav class='navbar navbar-expand-lg navbar-light bg-light mb-4'>
+    <nav class='navbar navbar-expand-lg navbar-dark mb-4' style="background-color: #F7931A;">
     	<div class="container">
     		<a class="navbar-brand" href="#">BitDif</a>
 
