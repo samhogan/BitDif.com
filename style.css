@@ -29,8 +29,15 @@
 }
 
 .grid-box {
-	height: 100%;
-	background-color: #eee;
+	height: 100%;	
+}
+
+.grid-box-dark {
+	background-color: #ddd;
+}
+
+.grid-box-light {
+	background-color: #f2f2f2;
 }
 
 .grid-row {
@@ -47,6 +54,9 @@
 div.vcenter p {
 	display: table-cell;
 	vertical-align: middle;
+}
+
+div.hcenter p {
 	text-align: center;	
 }
 
@@ -74,7 +84,7 @@ p {
 
 	width: 200px;
 	max-width: 100%;
-	
+
 
 }
 /*nav {
